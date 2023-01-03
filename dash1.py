@@ -18,6 +18,7 @@ for i in data['intensity']
   country=df['country'].unique().tolist()
   enddate=df['end date'].unique().tolist()
   
+  st.header('filter here')
   topic_selection=st.multiselect('topic:',topic, default=topic)
 
  enddate_selection=st.multiselect('enddate:',enddate, default=enddate)  
